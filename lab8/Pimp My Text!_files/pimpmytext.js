@@ -7,7 +7,7 @@ const helloWorld = function(){
 
 	setInterval(()=>{
 		text.style.fontSize = (text.style.fontSize == "") ? "14pt" : parseInt(text.style.fontSize)+2+"pt";
-	},500);
+	},500);	
 
 }
 
